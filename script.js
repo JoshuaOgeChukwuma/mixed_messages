@@ -1,4 +1,4 @@
-//Code to dispaly random facts about Cristiano Ronaldo
+//Code to display random facts about Cristiano Ronaldo
 let randomMessage = {
     greeting : ['Hello!', 'Hi!', 'Bonjour!', 'Salut!', 'Guten Tag', 'Que tal?', 'Konnichiwa', 'shalom', 'Hoi, Hallo'],
     didyouknow : ['did you know that', 'did you notice that', 'did you know it', 'brief news', 'fast facts', 'did you know', 'did you realize', 'were you aware'],
