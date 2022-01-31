@@ -27,4 +27,15 @@ let randomMessage = {
 
 };
 
-console.log(randomMessage.generatefacts())
+let button = document.getElementById('messagebutton');
+let fact = document.getElementById('messages');
+
+function showfacts(){
+    fact.innerHTML = randomMessage.generatefacts();
+    button.innerHTML = "Come back tomorrow!";
+    button.style.cursor = "dafault";
+    button.removeEventListener('click', showfacts);
+}
+
+button.addEventListener('click', showfacts);
+//console.log(randomMessage.generatefacts())

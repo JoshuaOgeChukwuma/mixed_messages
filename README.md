@@ -17,14 +17,12 @@ This project was created with:
 * Visual Studio Code
 * Node.Js
 * Javascript
+* HTML
+* Css
+* Chrome Developer Tools
 
 ## Setup
-To run this project, install it locally using node
-
-```
-$ cd ../folder
-$ node script.js
-```
+To begin, visit https://joshuaogechukwuma.github.io/mixed_messages/
 
 ## Contact
 Created by @JoshuaOgeChukwuma
